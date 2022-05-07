@@ -29,11 +29,11 @@ details > summary::-webkit-details-marker {
 }
 
 details > summary::before {
-  content: url(/images/right.png);
+  content: "– ";
 }
 
 details[open] > summary::before {
-  content: url(/images/down.png);
+  content: "¬ ";
 }
 
 details[open] > summary {
