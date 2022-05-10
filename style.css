@@ -10,10 +10,13 @@ h6 {
 
 body {
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .hd {
-  margin-top: 5%;
+  margin-top: 1vh;
 }
 
 .bd {
@@ -65,10 +68,9 @@ ul {
 /* Footer */
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  height: 90px;
   text-align: center;
+  background-color: #fdfdfd;
+  flex: 0 0 10%;
+  margin-top: auto;
 }
