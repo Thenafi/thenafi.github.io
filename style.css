@@ -64,6 +64,18 @@ p {
 ul {
   margin-bottom: 0%;
 }
+details.Projects {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+details.Projects p {
+  padding-left: 20px;
+}
+details.Projects summary {
+  margin: 0;
+  margin-bottom: -5px;
+  font-style: oblique;
+}
 
 /* Footer */
 
